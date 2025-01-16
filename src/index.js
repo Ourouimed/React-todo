@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.body);
 root.render(
   <React.StrictMode>
     <App />
-    <div className="text-white text-2xl">
+    <div className="text-white text-2xl text-center">
       by <a href="https://github.com/ourouimed" className='font-bold text-cyan-500'>Ourouimed</a> &copy; {new Date().getFullYear()}
     </div>
   </React.StrictMode>
